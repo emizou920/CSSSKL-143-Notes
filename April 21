@@ -1,0 +1,16 @@
+public Point2D getStartPoint(){
+
+  return Point2D new(this.startPoint);
+}
+This is avoiding privacy leak.
+
+Invariant 
+
+Assert is for the programmer, and user doesn't see it.
+
+finally block, it's under the try-catch(after this)
+try{
+}catch(){
+}finally{
+file.close()
+};
